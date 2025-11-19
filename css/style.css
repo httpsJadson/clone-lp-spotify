@@ -1,0 +1,27 @@
+body{ 
+    background: url(../img/capa.png),
+                url(../img/ruido.png), 
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    height: 100vh;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100vw;
+    top: 0;
+}
+
+#nav-principal ul li a, #nav-principal ul span{
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+#nav-principal ul li a:hover{
+    color: #00aeff;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
